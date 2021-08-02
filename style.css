@@ -1,18 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
 :root {
   --cardbackgr: #eeeeee;
 }
 
+* :not(a) {
+  color: rgb(36, 36, 36);
+  font-family: "Roboto", sans-serif;
+}
+
 .tributeCard {
   background-color: var(--cardbackgr);
-  margin: 3rem 0.3rem;
-  border-radius: 4px;
-  padding: 2rem;
+  margin: 19px 7px;
+  border-radius: 6px;
+  padding: 19px 16px;
 }
 
 header {
   text-align: center;
 }
 
+header h1 {
+  font-size: 40px;
+}
+
 main section:nth-child(1) {
   background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+main section:nth-child(1) span {
+  margin: 1.2em 0em;
+}
+
+main section:nth-child(2) {
+  width: 45vw;
+  margin: auto;
+}
+
+main section:nth-child(2) h3 {
+  text-align: center;
+}
+
+main section:nth-child(2) ul li {
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  margin: 4em 0 0 0;
 }
