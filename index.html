@@ -8,22 +8,24 @@
     <title>Tribute Page</title>
   </head>
   <body>
-    <div class="tributeCard">
+    <div id="main" class="tributeCard">
       <header>
-        <h1>Dr. Norman Borlaug</h1>
+        <h1 id="title">Dr. Norman Borlaug</h1>
         The man who saved a billion lives
       </header>
       <main>
         <section>
-          <img src="tribute-page-main-image.jpg" />
-          <span
-            >Dr. Norman Borlaug, third from the left, trains biologists in
-            Mexico on how to increase wheat yields - part of his life-long war
-            on hunger.</span
-          >
+          <div id="div-img">
+            <img id="img" src="tribute-page-main-image.jpg" />
+            <span id="img-caption"
+              >Dr. Norman Borlaug, third from the left, trains biologists in
+              Mexico on how to increase wheat yields - part of his life-long war
+              on hunger.</span
+            >
+          </div>
         </section>
 
-        <section>
+        <section id="tribute-info">
           <br />
           <h3>Here's a time line of Dr. Borlaug's life:</h3>
           <br />
@@ -120,6 +122,7 @@
             If you have time, you should read more about this incredible human
             being on his
             <a
+              id="tribue-link"
               href="https://en.wikipedia.org/wiki/Norman_Borlaug"
               target="_blank"
               >Wikipedia entry</a

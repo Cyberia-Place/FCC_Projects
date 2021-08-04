@@ -1,20 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 
-:root {
-  --cardbackgr: #eeeeee;
-}
-
 * :not(a) {
   color: rgb(36, 36, 36);
   font-family: "Roboto", sans-serif;
 }
 
 .tributeCard {
-  background-color: var(--cardbackgr);
-  margin: 19px 7px;
-  border-radius: 6px;
-  padding: 19px 16px;
+  background-color: #eeeeee;
+  margin: 2rem 0.5rem;
+  border-radius: 0.3em;
+  padding: 1rem 1rem;
 }
 
 header {
@@ -22,10 +18,10 @@ header {
 }
 
 header h1 {
-  font-size: 40px;
+  font-size: 3.5rem;
 }
 
-main section:nth-child(1) {
+main section:nth-child(1) div {
   background: white;
   display: flex;
   flex-direction: column;
@@ -48,10 +44,16 @@ main section:nth-child(2) h3 {
 }
 
 main section:nth-child(2) ul li {
-  margin: 20px 0;
+  margin: 1.5rem 0;
 }
 
 footer {
   text-align: center;
-  margin: 4em 0 0 0;
+  margin: 4rem 0 0 0;
+}
+
+#img {
+  height: auto;
+  width: 85%;
+  max-width: 1024px;
 }
