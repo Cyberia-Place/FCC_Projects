@@ -1,0 +1,60 @@
+:root {
+  --space-input-bottom: 1.5rem;
+  --space-input-top: 0.5rem;
+}
+
+/* Set the background img and the position of internal elements with flexbox */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(study-group.jpg);
+  background-position: center;
+}
+
+/* Filter for the background img */
+.filter {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-color: rgba(47, 12, 172, 0.67);
+}
+
+/* Creo el div negro de fondo */
+main {
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+/* El form debe tener un ancho menor al de main para crear un espacio entre el borde y el input */
+form {
+  width: 90%;
+  margin: auto;
+  color: white;
+}
+
+/* Estética de los input y label */
+form input[type="text"],
+select {
+  width: 100%;
+  height: 35px;
+  display: block;
+  border: none;
+  padding-left: 13px;
+  border-radius: 3px;
+  margin-bottom: var(--space-input-bottom);
+  margin-top: var(--space-input-top);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* form label {
+  display: block;
+} */
